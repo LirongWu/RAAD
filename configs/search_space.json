@@ -1,0 +1,18 @@
+{
+    "lr":{"_type":"choice","_value":[1e-3, 5e-4]},
+    "batch_size":{"_type":"choice","_value":[4, 8, 16]},
+    "hidden_size":{"_type":"choice","_value":[128, 256]},
+    "n_layers":{"_type":"choice","_value":[3, 4]},
+    "alpha":{"_type":"choice","_value":[0.8, 1.0]},
+    "dropout":{"_type":"choice","_value":[0.0, 0.1]},
+
+    "seed":{"_type":"choice","_value":[0, 1, 2, 3, 4, 5, 42, 2023]},
+    "anneal_base":{"_type":"choice","_value":[0.9, 0.95]},
+    "interface_only":{"_type":"choice","_value":[1]},
+    "split":{"_type":"choice","_value":[-1]},
+    
+    "optimization":{"_type":"choice","_value":[0]},
+    "n_samples":{"_type":"choice","_value":[4, 6, 8]},
+    "update_freq":{"_type":"choice","_value":[1, 4]},
+    "beta":{"_type":"choice","_value":[0.5, 1.0]}
+}

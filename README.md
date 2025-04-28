@@ -70,13 +70,14 @@ The customized hyperparameters can be searched in the space provided by `. /conf
 If you are interested in our repository and our paper, please cite the following paper:
 
 ```
-@article {lin2024geoab,
-	author = {Lin, Haitao and Wu, Lirong and Huang, Yufei and Liu, Yunfan and Zhang, Odin and Zhou, Yuanqing and Sun, Rui and Li, Stan Z.},
-	title = {GeoAB: Towards Realistic Antibody Design and Reliable Affinity Maturation},
-    year = {2024},
-	booktitle={International Conference on Machine Learning},
-	URL = {https://www.biorxiv.org/content/early/2024/05/17/2024.05.15.594274},
-	eprint = {https://www.biorxiv.org/content/early/2024/05/17/2024.05.15.594274.full.pdf}
+@inproceedings{wu2025relation,
+  title={Relation-aware equivariant graph networks for epitope-unknown antibody design and specificity optimization},
+  author={Wu, Lirong and Lin, Haitao and Huang, Yufei and Gao, Zhangyang and Tan, Cheng and Liu, Yunfan and Wu, Tailin and Li, Stan Z},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={1},
+  pages={895--904},
+  year={2025}
 }
 ```
 
